@@ -15,7 +15,7 @@
 
 @implementation MotionCpp
 
-@synthesize app;
+@synthesize myApp;
 
 - (id)init
 {
@@ -32,7 +32,7 @@
 // We create objc methods that map to the different Cpp methods
 - (void) myObjcMethod
 {
-  self.app->MyCppMethod();
+  self.myApp->MyCppMethod();
 }
 
 @end
