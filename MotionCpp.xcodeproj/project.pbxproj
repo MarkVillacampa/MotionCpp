@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DCAB9311690B163004AFD03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCAB9301690B163004AFD03 /* Foundation.framework */; };
 		4DCAB9361690B163004AFD03 /* MotionCpp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DCAB9351690B163004AFD03 /* MotionCpp.h */; };
-		4DCAB9381690B163004AFD03 /* MotionCpp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAB9371690B163004AFD03 /* MotionCpp.m */; };
+		4DCAB9381690B163004AFD03 /* MotionCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAB9371690B163004AFD03 /* MotionCpp.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,7 @@
 		4DCAB9301690B163004AFD03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DCAB9341690B163004AFD03 /* MotionCpp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionCpp-Prefix.pch"; sourceTree = "<group>"; };
 		4DCAB9351690B163004AFD03 /* MotionCpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionCpp.h; sourceTree = "<group>"; };
-		4DCAB9371690B163004AFD03 /* MotionCpp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionCpp.m; sourceTree = "<group>"; };
+		4DCAB9371690B163004AFD03 /* MotionCpp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MotionCpp.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4DCAB9351690B163004AFD03 /* MotionCpp.h */,
-				4DCAB9371690B163004AFD03 /* MotionCpp.m */,
+				4DCAB9371690B163004AFD03 /* MotionCpp.mm */,
 				4DCAB9331690B163004AFD03 /* Supporting Files */,
 			);
 			path = MotionCpp;
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCAB9381690B163004AFD03 /* MotionCpp.m in Sources */,
+				4DCAB9381690B163004AFD03 /* MotionCpp.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
