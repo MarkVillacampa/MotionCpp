@@ -23,9 +23,9 @@
   if (self)
   {
     // We initialize our Cpp class and assign it to our instace variable
-    self.myApp = new vesKiwiViewerApp;
+    self.myApp = new myCppClass;
   }
-  
+
   return self;
 }
 
